@@ -1,0 +1,290 @@
+/* Extra small devices (phones, 576px and down) */
+@media screen and (max-width: 576px) {
+  /*--------- navbar --------*/
+  .navExpand {
+    display: none;
+  }
+  nav {
+    height: 12vw;
+  }
+  .navbar-brand {
+    margin-top: 13%;
+    z-index: 50;
+  }
+  .navItemsResp {
+    width: 50vw;
+    height: 100vh;
+    background-color: #262262;
+    float: right;
+    position: absolute;
+    right: -370px;
+    top: 0%;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: inherit;
+ 
+    padding: 17vw 15vw;
+  }
+  .list {
+    margin-bottom: 30px;
+  }
+  .list a {
+    font-size: 15px;
+    color: #fff;
+    font-family: "iran";
+    margin-right: 40px;
+    padding-top: 200px;
+    transition: 0.3s;
+  }
+  .list a:hover {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .hamburger-icon {
+    width: 13vw;
+    float: right;
+    margin: 6%;
+  }
+  .hamburger-icon img {
+    width: 50%;
+    float: right;
+  }
+
+  .back-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #262262;
+    z-index: 99;
+    opacity: 0.7;
+  }
+  /*----------- slideshow ----------*/
+  .crslInd {
+    top: 100%;
+    margin-top: 10%;
+  }
+  .crslInd2 {
+    top: 90%;
+    margin-top: 10%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 576px and up) */
+@media screen and (min-width: 576px) {
+  /*--------- navbar -----------*/
+  .navExpand {
+    display: none;
+  }
+  nav {
+    height: 12vw;
+  }
+  .navbar-brand {
+    margin-top: 13%;
+    z-index: 50;
+  }
+  .navItemsResp {
+    width: 50vw;
+    height: 100vh;
+    background-color: #262262;
+    float: right;
+    position: absolute;
+    right: -370px;
+    top: 0%;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: inherit;
+ 
+    padding: 17vw 15vw;
+  }
+  .list {
+    margin-bottom: 35px;
+  }
+
+  .list a {
+    font-size: 15px;
+    color: #fff;
+    font-family: "iran";
+    margin-right: 40px;
+    padding-top: 200px;
+    transition: 0.3s;
+  }
+  .list a:hover {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .hamburger-icon {
+    width: 80px;
+    float: right;
+    margin: 3%;
+  }
+  .hamburger-icon img {
+    width: 7vw;
+    float: right;
+  }
+  .back-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+    background-color: #262262;
+    opacity: 0.7;
+  }
+  /*----------- slideshow ----------*/
+  .crslInd {
+    top: 100%;
+    margin-top: 5%;
+  }
+  .crslInd2 {
+    top: 90%;
+    margin-top: 7vw;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  /*--------- navbar -----------*/
+  .navResp {
+    display: none;
+  }
+  .navbar-brand {
+    margin-top: 11%;
+    z-index: 50;
+  }
+
+  .navExpand {
+    position: relative;
+    z-index: 1;
+    display: block;
+  }
+
+  .navList {
+    float: right !important;
+    margin-bottom: 3vw;
+  }
+  nav {
+    height: 10vw;
+  }
+  .navList {
+    margin-top: 8vw;
+    margin-right: 2vw;
+  }
+  .latifanLogo {
+    width: 20vw;
+    margin-left: 2vw;
+  }
+  .list a {
+    font-size: 2vw;
+    color: #fff;
+    font-family: "iran";
+    transition: 0.3s;
+  }
+  .list a:hover {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  /*---------- hoverNav ----------*/
+  .navHover {
+    position: relative;
+  }
+  .hoverGreen a {
+    
+    color: #2ad3b4;
+    right: 80px;
+    top: -30px;
+    background-color: #2ad3b4;
+    padding-top: 6px;
+    width: 80px;
+    height: 40px;
+  }
+  .hoverPink a {
+    color: #e2749e;
+    right: 120px;
+    top: -30px;
+    background-color: #e2749e;
+    padding-top: 6px;
+    padding-right: 0;
+    width: 80px;
+    height: 40px;
+  }
+
+  .hoverYellow a {
+    color: #f7d723;
+    right: 160px;
+    top: -30px;
+    background-color: #f7d723;
+    padding-top: 5px;
+    padding-right: 20px;
+    width: 80px;
+    height: 40px;
+  }
+  /*----------- slideshow ----------*/
+  .crslInd {
+    top: 100%;
+    margin-top: 5%;
+  }
+  .crslInd2 {
+    top: 100%;
+    margin-top: 5%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  /*----------- hoverNav ---------*/
+  .hoverGreen a {
+    color: #2ad3b4;
+    right: 90px;
+    top: -30px;
+    background-color: #2ad3b4;
+    padding-top: 10px;
+    padding-right: 20px;
+    width: 90px;
+    height: 50px;
+  }
+  .hoverPink a {
+    color: #e2749e;
+    right: 140px;
+    top: -30px;
+    background-color: #e2749e;
+    padding-top: 10px;
+    padding-right: 20px;
+    width: 90px;
+    height: 50px;
+  }
+
+  .hoverYellow a {
+    color: #f7d723;
+    right: 190px;
+    top: -30px;
+    background-color: #f7d723;
+    padding-top: 10px;
+    padding-right: 5px;
+    width: 90px;
+    height: 50px;
+  }
+  /*----------- slideshow ----------*/
+  .crslInd {
+    top: 100%;
+    margin-top: 3%;
+  }
+  .crslInd2 {
+    top: 80%;
+    margin-top: 10%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  /*----------- slideshow ----------*/
+  .crslInd2 {
+    margin-top: 6vw;
+  }
+}
